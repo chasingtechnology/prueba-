@@ -8,6 +8,16 @@
  *
  * @author 33
  */
-public class Hipotenusa {
+public class Hipotenusa 
+
+{
+    
+    public double a=0.00;
+    public double b=0.00;
+    public double calhipo (double a, double b)
+    
+    {
+        return (Math.sqrt((a*a) + (b*b)));
+    }
     
 }
